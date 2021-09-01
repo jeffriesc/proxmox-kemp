@@ -7,9 +7,9 @@ This is a guide on installing Kemp Load Balancer on Proxmox VE.
 4. Begin by entering `wget https://kemptechnologies.com/files/packages/current/Free-VLM-VMware-OVF-64bit.zip` and press enter
 5. Then unzip the downloaded: `unzip Free-VLM-VMware-OVF-64bit.zip`
     1. There will be a few different files unzipped 
-7. `unzip Free-VLM-VMware-OVF-64bit/LoadMaster-VLM-[VERSION].RELEASE-VMware-OVF-FREE.zip`
+6. Now unzip the `LoadMaster-VLM-[VERSION].RELEASE-VMware-OVF-FREE.zip` file. For example: `unzip Free-VLM-VMware-OVF-64bit/LoadMaster-VLM-[VERSION].RELEASE-VMware-OVF-FREE.zip`
+    1. In my case it was **VERSION** `7.2.50.0.187`
 
-In my case it was **VERSION** `7.2.50.0.187`
 ```
 unzip Free-VLM-VMware-OVF-64bit/LoadMaster-VLM-7.2.50.0.18765.RELEASE-VMware-OVF-FREE.zip
 ```
