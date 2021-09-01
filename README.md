@@ -12,7 +12,8 @@ unzip Free-VLM-VMware-OVF-64bit.zip
 ```
 unzip Free-VLM-VMware-OVF-64bit/LoadMaster-VLM-[VERSION].RELEASE-VMware-OVF-FREE.zip
 ```
-Ex.
+
+In my case it was VERSION 7.2.50.0.18765
 ```
 unzip Free-VLM-VMware-OVF-64bit/LoadMaster-VLM-7.2.50.0.18765.RELEASE-VMware-OVF-FREE.zip
 ```
@@ -20,3 +21,15 @@ unzip Free-VLM-VMware-OVF-64bit/LoadMaster-VLM-7.2.50.0.18765.RELEASE-VMware-OVF
 ```
 qm importovf [ID] LoadMaster-VLM-[VERSION].RELEASE-VMware-VBox-OVF-FREE.ovf [SERVER]
 ```
+
+I set my **ID** to `107` and chose `local` as the **SERVER**
+```
+qm importovf 107 LoadMaster-VLM-7.2.50.0.18765.RELEASE-VMware-VBox-OVF-FREE.ovf local
+```
+
+
+
+
+
+
+
