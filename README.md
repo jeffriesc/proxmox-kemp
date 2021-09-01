@@ -12,8 +12,9 @@ This is a guide on installing Kemp Load Balancer on Proxmox VE.
 7. Now you we want to add the .ovf file into your list of VM's using the following line of code. `qm importovf [ID] LoadMaster-VLM-[VERSION].RELEASE-VMware-VBox-OVF-FREE.ovf [SERVER]`
     1. I set my **ID** to `107` and chose `local` as the **SERVER** for the following code `qm importovf 107 LoadMaster-VLM-7.2.50.0.18765.RELEASE-VMware-VBox-OVF-FREE.ovf local`
 
+Before launching the VM go into the Hardware tab and change the SCSI Controller to **VMware PVSCSI**
 
-
+That's it! You've successfully imported the Kemp Load Balancer into Proxmox. 
 
 
 
