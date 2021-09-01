@@ -16,8 +16,7 @@ Before launching the VM go into the Hardware tab and change the SCSI Controller 
 
 *You may also want to double check that Start at Boot is enabled under the VM Options. 
 
-That's it! You've successfully imported the Kemp Load Balancer into Proxmox and you can now start it and begin configuring it. NetworkChuck has a great walkthrough on this over on Youtube. Check it out here http://github.com - automatic!
-[GitHub](http://github.com)
+That's it! You've successfully imported the Kemp Load Balancer into Proxmox and you can now start it and begin configuring it. NetworkChuck has a great walkthrough on this over on Youtube. Check it out [Here](https://youtu.be/LlbTSfc4biw)
 
 
 
