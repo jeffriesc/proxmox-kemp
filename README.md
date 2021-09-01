@@ -13,7 +13,7 @@ unzip Free-VLM-VMware-OVF-64bit.zip
 unzip Free-VLM-VMware-OVF-64bit/LoadMaster-VLM-[VERSION].RELEASE-VMware-OVF-FREE.zip
 ```
 
-In my case it was VERSION `7.2.50.0.187`
+In my case it was **VERSION** `7.2.50.0.187`
 ```
 unzip Free-VLM-VMware-OVF-64bit/LoadMaster-VLM-7.2.50.0.18765.RELEASE-VMware-OVF-FREE.zip
 ```
