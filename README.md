@@ -13,14 +13,12 @@ unzip Free-VLM-VMware-OVF-64bit.zip
 unzip Free-VLM-VMware-OVF-64bit/LoadMaster-VLM-[VERSION].RELEASE-VMware-OVF-FREE.zip
 ```
 
-In my case it was VERSION 7.2.50.0.18765
+In my case it was VERSION `7.2.50.0.187`
 ```
 unzip Free-VLM-VMware-OVF-64bit/LoadMaster-VLM-7.2.50.0.18765.RELEASE-VMware-OVF-FREE.zip
 ```
 
-```
-qm importovf [ID] LoadMaster-VLM-[VERSION].RELEASE-VMware-VBox-OVF-FREE.ovf [SERVER]
-```
+Now you we want to add the .ovf file into your list of VM's. For example: `qm importovf [ID] LoadMaster-VLM-[VERSION].RELEASE-VMware-VBox-OVF-FREE.ovf [SERVER]`
 
 I set my **ID** to `107` and chose `local` as the **SERVER**
 ```
